@@ -1,0 +1,46 @@
+.bg-custom {
+    background-image: url('../images/image\ acceuil1.jpg');
+}
+.font-times {
+    font-family: 'Times New Roman', Times, serif;
+}
+.custom-shadow{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+}
+.search-icon {
+    position: absolute;
+    right: 50px; /* Ajustez cette valeur selon vos besoins */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a0aec0; /* Couleur gris clair */
+}
+.overlay {
+    position: relative;
+    top: 10%; /* Ajustez selon vos besoins */
+    right: 50%;
+    left: 23%;
+    transform: translate(-25%, -25%);
+}
+.text-outline {
+    text-shadow: 
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000; /* Ajustez la couleur ici */
+}
+.overlay3{
+    position: relative;
+    top: 50%; /* Ajustez selon vos besoins */
+    left: 50%;
+   
+    transform: translate(-25%, -25%);   
+}
+p{
+    align-items: center;
+}
+.behind {  
+    z-index: 4; /* Z-index plus bas pour être derrière */
+}
+.container{
+    position: relative;
+}
